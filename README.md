@@ -22,7 +22,10 @@ git remote add origin https://github.com/shiva-palakurthy/Frontend-Programming.g
 git branch -M main
 git push -u origin main
 to make sure a user on the main branch: git checkout main.
+```
 git checkout main <filename>
 git merge
 git pull origin main
 git fetch
+git clone <git-branch-url>
+```
