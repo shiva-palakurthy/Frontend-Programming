@@ -29,3 +29,8 @@ git pull origin main
 git fetch
 git clone <git-branch-url>
 ```
+```
+git merge <branch_name>
+or
+git merge --no-ff <branch_name>
+```
