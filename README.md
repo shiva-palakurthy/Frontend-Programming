@@ -25,3 +25,4 @@ to make sure a user on the main branch: git checkout main.
 git checkout main <filename>
 git merge
 git pull origin main
+git fetch
