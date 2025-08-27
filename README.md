@@ -1,4 +1,5 @@
 # Frontend-Programming
+
 Git information
 
 User Authentication:
@@ -7,9 +8,11 @@ User Authentication:
 git config –global user.email “youremail@”
 git config –global user.name “yourname”
 ```
+
 Repository URL: https://github.com/shiva-palakurthy/Frontend-Programming.git
 
 For creating a new repository
+
 ```
 echo "# Frontend-Programming" >> README.md
 git init
@@ -19,13 +22,29 @@ git branch -M main
 git remote add origin https://github.com/shiva-palakurthy/Frontend-Programming.git
 git push -u origin main
 ```
+
 To push an existing repository
+
 ```
 git remote add origin https://github.com/shiva-palakurthy/Frontend-Programming.git
 git branch -M main
 git push -u origin main
 ```
+
+To remove existing remote
+
+```
+git remote remove origin
+```
+
+To get the origin URL
+
+```
+git config --get remote.origin.url
+```
+
 To make sure a user is on the main branch:
+
 ```
 git checkout main
 git checkout main <filename>
@@ -34,6 +53,7 @@ git pull origin main
 git fetch
 git clone <git-branch-url>
 ```
+
 ```
 git merge <branch_name>
 or
