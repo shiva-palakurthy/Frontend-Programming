@@ -52,9 +52,21 @@ git checkout main <filename>
 Commands to maintain both the origin and the local have the same version of code
 ```
 git fetch
-git merge
+git log HEAD..origin/main
 git pull origin main
 ```
+
+```git fetch``` - This command downloads all the new commits and branch updates from the remote(does not merge yet).
+then check with ```git status``` if local is behind the remote.
+If git status is not working
+Steps to follow
+```git branch -vv``` - Verify your local branch and its upstream
+```git log HEAD..origin/main``` - This command shows a list of the commits that are in the 'origin/main' branch but not in your local 'main' branch (your current branch).
+We can also run ```git diff main..origin/main``` 
+If the git branch -vv command shows that your local branch isn't tracking a remote one
+Use ```git branch --set-upstream-to=origin/main``` command to set it manually.
+Once you have verified that a newer version of the code exists on the remote, you can bring the changes into your local branch by running ```git pull```.
+
 To download code from the remote to the local machine
 ```
 git clone <git-branch-url>
