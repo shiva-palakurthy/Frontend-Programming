@@ -2,3 +2,19 @@ h1{
     text-align: center;
     font-style: italic;
 }
+#Mr_p{
+    font-size:100px;
+    color:greenyellow;
+}
+#Mybutton{
+    width: 1000px;
+    height: 300px;
+    font-size: 75px;
+    color: blue;
+    background-color: brown;
+    cursor: pointer;
+}
+#Mybutton.clicked{
+    color:palevioletred;
+    background-color:grey;
+}
