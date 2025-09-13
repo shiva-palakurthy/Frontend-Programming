@@ -80,7 +80,7 @@ function functionWithArray(a,b) {
     console.log(a-b);// here we can use any of the opration like % * +etc...
 }
 functionWithArray(10,5);
-// hello
+
   
 
 
