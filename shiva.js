@@ -81,7 +81,6 @@ function functionWithArray(a,b) {
 }
 functionWithArray(10,5);
 // hello
-
   
 
 
