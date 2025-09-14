@@ -10,7 +10,7 @@
     <title>Hello World</title>
     <!--Defines the title of a web page-->
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="favicon.jpg"/>
+    <link rel="icon" href="favicon.jpg" />
 </head>
 
 <body>
@@ -71,6 +71,59 @@
                     <li>Mumbai</li>
                 </ol>
             </div>
+        </section>
+        <section>
+            <form action="/submit-form" method="post" class="employeeForm">
+                <!--post because we are sending information-->
+                <fieldset>
+                    <legend>Employee Details</legend>
+                    <div class="form-group">
+                        <label for="fname">Enter your firstname:
+                            <input type="text" id="fname" name="e_firstname">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Enter your lastname:
+                            <input type="text" id="lname" name="e_lastname">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="pass">Enter your Password:
+                            <input type="password" id="pass" name="e_password">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>Enter your Gender:</label>
+
+                        <label for="male">Male</label>
+                        <input type="radio" name="e_gender" id="male" value="male">
+
+                        <label for="female">Female</label>
+                        <input type="radio" name="e_gender" id="female" value="female">
+
+                        <label for="others">Others</label>
+                        <input type="radio" name="e_gender" id="others" value="others">
+                    </div>
+                    <div class="form-group">
+                        <label for="employeeID">Enter your Employee ID:
+                            <input type="text" id="employeeID" name="employeeID">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="designation">Enter your Designatio:
+                            <input type="text" id="designation" name="e_designation">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Enter your Phone Number:
+                            <input type="text" id="phone" name="e_phoneNumber">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="submit">
+                    </div>
+                </fieldset>
+            </form>
         </section>
     </main>
     <footer></footer>

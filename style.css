@@ -49,3 +49,53 @@ div.main-header-div {
   padding: 10px;
   margin: 10px;
 }
+
+/* 
+style related to form fields
+*/
+
+.employeeForm {
+  float: left;
+  clear: left;
+  margin-bottom: 25px;
+}
+
+fieldset {
+  width: 400px;
+  padding: 20px;
+  /* border: 1px solid #333; */
+}
+
+legend {
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Vertically align items */
+}
+
+.form-group label {
+  display: block;
+  /* margin-bottom: 5px; */
+}
+/*
+either we can write .<class-name> <field type> ex: .form-group label
+or we can write input[type="<input-type>"] ex: input[type="text"]
+*/
+input[type="text"] {
+  box-sizing: border-box; /*this ensures padding does not increase the total width*/
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
