@@ -2,13 +2,13 @@
 <html>
     <head>
         <title>Mr</title>
-            <link rel="icon" href="MR.png">
-            <link rel="stylesheet" href="Mr-Rockline.css">
+        <link rel="icon" href="MR.png">
+        <link rel="stylesheet" href="Mrrockline.css">
     </head>
     <body>
         <header>
-          <h1>My Rockline</h1>
-            <sectoin>
+          <h1 class="my123">My Rockline</h1>
+            <section>
                 <diV>
                     <nav>
                         <ul class ="mr_ul">
@@ -18,14 +18,60 @@
                         </ul>
                     </nav>
                 </diV>
-            </sectoin>
-          <p></p>
+            </section>
+          <p>this mr rockline</p>
         </header>
         <main>
             <div>
                 <p id="Mr_p" class="Mr_p">This page</p>
                 <button id="Mybutton" class="Mybutton">fire</button>
-            </div> 
+            </div><br><br>
+            <section>
+                 <!--common used form tags
+                    form,input,textarea,label,<select> & <option>
+                    <input>	- Defines an input control.optgroup,fieldset,legend,button,output
+                    -->
+                <form action="/sumit-form" method="push" id="employeeForm">
+                    <fieldset>
+                        <legend>Employee Information</legend> <!--legend tag is used for diplaying information the top of the form-->
+                          
+                        <div class="div123">
+                            <label for="firstname">Enter your firstname: <input type="text" name="firstname"></label> 
+                        </div>         <!--self closing tag-->
+                        <div class="div123">
+                            <label for="lastname">Enter your lastname: <input type="text" name="lastname"></label>
+                        </div>
+                        <div class="div123">
+                            <label for="password">Enter your password: <input type="password" name="password"></label>
+                         </div >
+                         <div class="div123">
+                            <label for="gender">Gender: </label>
+
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" value="male">
+
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" vale="female">
+
+                            <label for="gender">Others</label>
+                            <input type="radio" name="gender" vale="Others">
+                        </div>
+                        <div class="div123">
+                            <label for="employeeid">Employee Id: <input type="text" name="employeeid"></label>                 
+                        </div>
+                        <div class="div123">
+                            <label for="phonenumber">Phone Number: <input type="text" name="phonenumber"></label>
+                        </div>
+                        <div class="div123">
+                            <label for="designstion">Desigination: <input type="text" name="desigination"></label>
+                        </div>
+                        <div class="div123">
+                            <label for="birthday">Birthdat: <input type="date" name="birthday"></label>
+                        </div>
+                        <input type="submit"  class="submitclass" value="submit">
+                    </fieldset>
+                </form>
+            </section>
         </main>
         <footer>
                 <div class="mr_div">
@@ -39,6 +85,6 @@
                     </nav>    
                 </div>  
         </footer>
-        <script src="Mr-Rockline.js"></script>
+        <script src="Mrrockline.js"></script>
     </body>
 </html>

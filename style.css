@@ -91,7 +91,7 @@ input[type="text"] {
 input[type="submit"] {
   padding: 10px 20px;
   background-color: #007bff;
-  color: white;
+  color: rgb(151, 28, 28);
   border: none;
   cursor: pointer;
 }
