@@ -22,10 +22,10 @@
           <p>this mr rockline</p>
         </header>
         <main>
-            <div>
+            <div id="div-button">
                 <p id="Mr_p" class="Mr_p">This page</p>
                 <button id="Mybutton" class="Mybutton">fire</button>
-            </div><br><br>
+            </div>
             <section>
                  <!--common used form tags
                     form,input,textarea,label,<select> & <option>
@@ -35,50 +35,63 @@
                     <fieldset>
                         <legend>Employee Information</legend> <!--legend tag is used for diplaying information the top of the form-->
                           
-                        <div class="div123">
+                        <div class="form-fieldset">
                             <label for="firstname">Enter your firstname: <input type="text" name="firstname"></label> 
-                        </div>         <!--self closing tag-->
-                        <div class="div123">
+                        </div>         
+                        <div class="form-fieldset">
                             <label for="lastname">Enter your lastname: <input type="text" name="lastname"></label>
                         </div>
                         <div class="div123">
                             <label for="password">Enter your password: <input type="password" name="password"></label>
                          </div >
-                         <div class="div123">
+                         <div class="form-fieldset">
                             <label for="gender">Gender: </label>
 
                             <label for="male">Male</label>
                             <input type="radio" name="gender" value="male">
 
                             <label for="female">Female</label>
-                            <input type="radio" name="gender" vale="female">
+                            <input type="radio" name="gender" value="female">
 
                             <label for="gender">Others</label>
-                            <input type="radio" name="gender" vale="Others">
+                            <input type="radio" name="gender" value="Others">
                         </div>
-                        <div class="div123">
+                        <div class="form-fieldset">
                             <label for="employeeid">Employee Id: <input type="text" name="employeeid"></label>                 
                         </div>
-                        <div class="div123">
+                        <div class="form-fieldset">
                             <label for="phonenumber">Phone Number: <input type="text" name="phonenumber"></label>
                         </div>
-                        <div class="div123">
+                        <div class="form-fieldset">
                             <label for="designstion">Desigination: <input type="text" name="desigination"></label>
                         </div>
-                        <div class="div123">
+                        <div class="form-fieldset">
                             <lebel for="age">Enter your age: <input type="number" name="age"></lebel>
                         </div>
-                        <div class="div123">
+                        <div class="form-fieldset">
                             <label for="birthday">Birthday date: <input type="date" name="birthday"></label>
                         </div>
-                        <div class="div123">
+                        <div class="form-fieldset">
                             <label for="marriagestatus">Marriage Status: </label>
 
-                            <lebel for="unmarried">Unmarried</lebel>
+                            <label for="unmarried">Unmarried</lebel>
                             <input type="radio" name="marriagestatus" value="unmarried">
 
-                             <lebel for="married">Married</lebel>
+                             <label for="married">Married</lebel>
                              <input type="radio" name="marriagestatus" value="married">
+                        </div>
+                        <div class="form-fieldset">        
+                            <label for="languages">Select the languages you read:</label>
+                                <ol>
+                                    <li><label for="telugu">Telugu</label>
+                                    <input type="checkbox" name="languages" value="telugu"></li>
+                                
+                                    <li><label for="hindi">Hindi</label>
+                                    <input type="checkbox" name="languages" value="hindi"></li>
+                                
+                                    <li><label for="english">English</label>
+                                    <input type="checkbox" name="languages" value="english"></li>
+                                </ol>
                         </div>
                         <input type="submit"  class="submitclass" value="submit">
                     </fieldset>
