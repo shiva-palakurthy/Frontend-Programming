@@ -7,11 +7,11 @@
     </head>
     <body>
         <header>
-          <h1 class="my123">My Rockline</h1>
+          <h1 class="class-header">My Rockline</h1>
             <section>
                 <diV>
                     <nav>
-                        <ul class ="mr_ul">
+                        <ul class ="class-unordered">
                            <li><a  href="#" target="_blank">Rule</a></li>
                            <li><a  href="#" target="_blank">Earn</a></li>
                            <li><a  href="#" target="_blank">money</a></li>
@@ -19,19 +19,19 @@
                     </nav>
                 </diV>
             </section>
-          <p>this mr rockline</p>
+          <p class="myparagraph-rockline">This mr rockline</p>
         </header>
         <main>
-            <div id="div-button">
-                <p id="Mr_p" class="Mr_p">This page</p>
-                <button id="Mybutton" class="Mybutton">fire</button>
+            <div id="div-buttonandparagrapharea">
+                <p id="textabove_button" class="textabove_button">This page</p>
+                <button id="button_fire" class="button_fire">fire</button>
             </div>
             <section>
                  <!--common used form tags
                     form,input,textarea,label,<select> & <option>
                     <input>	- Defines an input control.optgroup,fieldset,legend,button,output
                     -->
-                <form action="/sumit-form" method="push" id="employeeForm">
+                <form action="/submit-form" method="push" id="employee-form">
                     <fieldset>
                         <legend>Employee Information</legend> <!--legend tag is used for diplaying information the top of the form-->
                           
@@ -41,7 +41,7 @@
                         <div class="form-fieldset">
                             <label for="lastname">Enter your lastname: <input type="text" name="lastname"></label>
                         </div>
-                        <div class="div123">
+                        <div class="form-fieldset"></div>
                             <label for="password">Enter your password: <input type="password" name="password"></label>
                          </div >
                          <div class="form-fieldset">
@@ -57,10 +57,10 @@
                             <input type="radio" name="gender" value="Others">
                         </div>
                         <div class="form-fieldset">
-                            <label for="employeeid">Employee Id: <input type="text" name="employeeid"></label>                 
+                            <label for="employee-id">Employee Id: <input type="text" name="employee-id"></label>                 
                         </div>
                         <div class="form-fieldset">
-                            <label for="phonenumber">Phone Number: <input type="text" name="phonenumber"></label>
+                            <label for="phone-number">Phone Number: <input type="text" name="phone-number"></label>
                         </div>
                         <div class="form-fieldset">
                             <label for="designstion">Desigination: <input type="text" name="desigination"></label>
@@ -72,13 +72,15 @@
                             <label for="birthday">Birthday date: <input type="date" name="birthday"></label>
                         </div>
                         <div class="form-fieldset">
-                            <label for="marriagestatus">Marriage Status: </label>
+                            <label for="marriage-status">Marriage Status: </label>
 
-                            <label for="unmarried">Unmarried</lebel>
-                            <input type="radio" name="marriagestatus" value="unmarried">
+                                <ul>
+                                    <li><label for="unmarried">Unmarried</lebel>
+                                    <input type="radio" name="marriage-status" value="unmarried"></li>
 
-                             <label for="married">Married</lebel>
-                             <input type="radio" name="marriagestatus" value="married">
+                                    <li><label for="married">Married</lebel>
+                                    <input type="radio" name="marriage-status" value="married"></li>
+                                </ul>    
                         </div>
                         <div class="form-fieldset">        
                             <label for="languages">Select the languages you read:</label>
@@ -99,9 +101,9 @@
             </section>
         </main>
         <footer>
-                <div class="mr_div">
-                    <nav class="Mr_nav"></nav>
-                        <ol class="mr_ol">
+                <div class="div-navi">
+                    <nav class="class-navi"></nav>
+                        <ol class="ordered-list">
                             <li><a href="#" target="_blank">my</a></li>
                             <li><a href="#" target="_blank">life</a></li>                            
                             <li><a href="#" target="_blank">my</a></li>                            
