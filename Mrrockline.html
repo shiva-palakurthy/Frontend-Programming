@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang=>
     <head>
         <title>Mr</title>
         <link rel="icon" href="MR.png">
@@ -12,27 +12,43 @@
                 <diV>
                     <nav>
                         <ul class ="class-unordered">
-                           <li><a  href="#" target="_blank">Rule</a></li>
-                           <li><a  href="#" target="_blank">Earn</a></li>
-                           <li><a  href="#" target="_blank">money</a></li>
+                           <li><a  href="#fieldset-formation" target="_blank">Rule</a></li> <!--here we have added id of the a part where we can directly to jump to the area where we need look ofter-->
+                           <li><a  href="#div-navi" target="_blank">Earn</a></li>
+                           <li><a  href="#ddiv-buttonandparagrapharea" target="_blank">money</a></li>
                         </ul>
                     </nav>
                 </diV>
             </section>
-          <p class="myparagraph-rockline">This mr rockline</p>
+            <hr>
+            <hr>
+          <p class="myparagraph-rockline">This mr <abbr title="the owr of the page"><a href="shiva.html" target="_top">&copy;shiva</a></abbr></p> <!--this tag is used to hide the information which is readable once we click on the that text-->
+          
+          <dl id="doceument-formation">    <!--this type of tags are used for the presenting the information the form of document-->
+            <dt>Vishnu kumar</dt>
+            <dd>The lead </dd>
+            <dt>Rockline</dt>
+            <dd>The tester</dd>
+
+            <dt>Shiva</dt>
+            <dd>The developer </dd>
+
+          </dl>
+          <hr>
+          <hr>
         </header>
         <main>
             <div id="div-buttonandparagrapharea">
                 <p id="textabove_button" class="textabove_button">This page</p>
                 <button id="button_fire" class="button_fire">fire</button>
             </div>
+            <hr>
             <section>
                  <!--common used form tags
                     form,input,textarea,label,<select> & <option>
                     <input>	- Defines an input control.optgroup,fieldset,legend,button,output
                     -->
                 <form action="/submit-form" method="push" id="employee-form">
-                    <fieldset>
+                    <fieldset id="fieldset-formation">
                         <legend>Employee Information</legend> <!--legend tag is used for diplaying information the top of the form-->
                           
                         <div class="form-fieldset">
@@ -95,14 +111,15 @@
                                     <input type="checkbox" name="languages" value="english"></li>
                                 </ol>
                         </div>
-                        <input type="submit"  class="submitclass" value="submit">
+                            <input type="submit"  class="submitclass" value="submit">
                     </fieldset>
                 </form>
             </section>
+            <hr>
         </main>
         <footer>
-                <div class="div-navi">
-                    <nav class="class-navi"></nav>
+                <div  id="div-navi">
+                    <nav id="class-navi"></nav>
                         <ol class="ordered-list">
                             <li><a href="#" target="_blank">my</a></li>
                             <li><a href="#" target="_blank">life</a></li>                            
@@ -110,7 +127,12 @@
                             <li><a href="#" target="_blank">rule</a></li>                                                        
                         </ol>
                     </nav>    
-                </div>  
+                </div>
+                <div id="page-topbutton"> 
+                    <p>
+                    Go to the<a href="#" target="_blank">&cap;top </a>page.
+                    </p>
+                </div>
         </footer>
         <script src="Mrrockline.js"></script>
     </body>
