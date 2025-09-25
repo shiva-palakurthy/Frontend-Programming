@@ -4,7 +4,7 @@ const textabove_button = document.getElementById("textabove_button")
 button_fire.addEventListener("click", function () {
 button_fire.classList.toggle("clicked");
 textabove_button.textContent = "belong to Mr Rockline"
-textabove_button.style.color = '#FFFFFF';
+textabovebutton.style.color = '#FFFFFF';
 textabove_button.style.backgroundColor = 'blue';
 });
 
