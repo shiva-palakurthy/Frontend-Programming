@@ -64,9 +64,9 @@ legend{
 #page-top-button{
     margin-top: 10px;
 }
-.class-navigation-page{
-    display: flex;
-    line-height: inherit
+ul{
+display: inline-flex;
+font-style: oblique;
 }
 
 

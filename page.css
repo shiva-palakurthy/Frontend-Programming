@@ -1,0 +1,39 @@
+body{
+background-color:black;
+}
+h1{
+text-align: center;
+font-style: oblique;
+color:red;
+}
+.og-navigation-bar {
+  overflow: hidden;
+  background-color: #753434;
+}
+
+.og-navigation-bar a {
+  float: left;
+  color: #d1c6c6;
+  text-align: center;
+  padding: 35px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.og-navigation-bar a:hover {
+  background-color: #be9b9b;
+  color: rgb(3, 3, 3);
+}
+
+.og {
+  background-color: #272020;
+}
+.og-image{
+width: 200x;
+height: 230px;
+display: block;
+margin: auto;
+}
+p{
+    color: #9b3737;
+    font-size: 46px;
+}
