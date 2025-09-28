@@ -37,3 +37,26 @@ p{
     color: #9b3737;
     font-size: 46px;
 }
+.cast-og{
+  display: flex;
+  padding: 50px;
+}
+.block-hero{
+  height:450px;
+  width:450px;
+}
+.block-director{
+  height:450px;
+  width:450px;
+}
+.block-hero{
+  height:450px;
+  width:450px;
+}
+.image-og{
+height:200px;
+width:200px;
+border:  70px solid #272020;
+border-radius:25px;
+border-color: rgb(43, 16, 7);
+}
