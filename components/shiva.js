@@ -15,8 +15,18 @@ console.log(mystr1);
 var mystr2 = 'hello "welcome" to the party';
 console.log(mystr2);
 
-// writing muilple lines in one string
-// \' single quote , \" double , \\ backslash , \n new line , \r carriage return , \t tab , \b backspace ,\f form feed .
+/**
+ * ! escape sequence characters
+ *  writing muilple lines in one string
+ * \' single quote, 
+ * \" double,
+ * \\ backslash,
+ * \n new line,
+ * \r carriage return,
+ * \t tab,
+ * \b backspace,
+ * \f form feed.
+ * */ 
 let mystr3 = 'let take\n "a\rbreak" as we\tare playing from past 45\\mins\b';
 console.log(mystr3);
 
@@ -48,7 +58,8 @@ console.log(myarray3);
 var myarray4 =[[1,2] , [3,4] , 2] ; // array with mutiple arrays
 console.log(myarray4);
 var myarray6 = [[1], [2,3] ,[[7,8], 9]];
-mydata6 = myarray6[2][0][1]; // for geting "8"
+// ! NOTE: you forgot to declare mydata6 with var, let or const
+var mydata6 = myarray6[2][0][1]; // for geting "8"
 console.log(mydata6);
 // adding the text to an array 
 var myarray7 = ["hello " , "everyone"];
@@ -59,7 +70,7 @@ var myarray8 = ["hello ", "mr " ,"rockline"];
 myarray8.pop(); //pop fuction is only used for the removing of the last element from the array
 console.log(myarray8);
  
-// shift() and unshif()
+// shift() and unshift()
 var myary = [["shiva " , 1] , ["vishal " , 2]];
 myary.shift(); // here the out will be ["vishal " , 2]
 myary.unshift(["vishnu " , 3]);// here ["shiva " 1] will be replaced with ["vishnu " 3]
@@ -70,11 +81,22 @@ console.log(myary);
 function reusabletext(){
     console.log("hello world");
 }
-
+/** 
+ * !TODO: Lets discuss variables, operators, conditions, loops, data structures,
+ * ! and functions in detail in the next chapter.
+ * NOTE: Here we can call the function for n times
+   without writing the same text again and again
+ * */ 
+const reusableCount = 5;
+for(let i=0; i<reusableCount; i++){
+    reusabletext();
+}
+/*
+! Note: No need to write the same text again and again
 reusabletext();// here text will be hello world
 reusabletext();// same repeat here
 reusabletext();// same here we can repeat the text for n times
-
+*/
 // using function for operations like + - * etc
 function functionWithArray(a,b) {
     console.log(a-b);// here we can use any of the opration like % * +etc...

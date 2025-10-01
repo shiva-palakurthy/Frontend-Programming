@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang=en>
-    <head>
-        <title>Mr</title>
-        <link rel="icon" href="MR.png">
-        <link rel="stylesheet" href="Mrrockline.css">
-    </head>
-    <body>
-        <header>
-          <h1 class="class-header">My Rockline</h1>
-            <section>
-                 <div  class="div-Navigation-page">
-                    <nav class="class-navigation-page"></nav>
-                        <ul>
-                            <li class="Navigation-list"><a href="#" target="_blank">About page</a></li>
-                            <li class="Navigation-list"><a href="#" target="_blank">Home</a></li>                            
-                            <li class="Navigation-list"><a href="#" target="_blank">Feedback us</a></li>                                                        
-                            <li class="Navigation-list"><a href="#" target="_blank">Help line</a></li>                            
-                        </ul>
-                    </nav>
-                </div>
-            </section>
-        </header>
-        <hr>
-        <hr>
-        <main>
-          <p class="my-paragraph-rockline">This mr <abbr title="the owr of the page"><a href="shiva.html" target="_top">&lt;&lt;&copy;shiva&gt;&gt;</a></abbr></p> <!--this tag is used to hide the information which is readable once we click on the that text and here &lt;and &gt refers to "<" and ">"-->
-          
-          <dl id="document-about-team">    <!--this type of tags are used for the presenting the information the form of document-->
+
+<head>
+    <title>Mr</title>
+    <link rel="icon" href="assets/MR.png">
+    <link rel="stylesheet" href="css/Mrrockline.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="class-header">My Rockline</h1>
+        <section>
+            <div class="div-Navigation-page">
+                <nav class="class-navigation-page"></nav>
+                <ul>
+                    <li class="Navigation-list"><a href="#" target="_blank">About page</a></li>
+                    <li class="Navigation-list"><a href="#" target="_blank">Home</a></li>
+                    <li class="Navigation-list"><a href="#" target="_blank">Feedback us</a></li>
+                    <li class="Navigation-list"><a href="#" target="_blank">Help line</a></li>
+                </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <hr>
+    <hr>
+    <main>
+        <p class="my-paragraph-rockline">This mr <abbr title="the owr of the page"><a href="shiva.html"
+                    target="_top">&lt;&lt;&copy;shiva&gt;&gt;</a></abbr></p>
+        <!--this tag is used to hide the information which is readable once we click on the that text and here &lt;and &gt refers to "<" and ">"-->
+
+        <dl id="document-about-team">
+            <!--this type of tags are used for the presenting the information the form of document-->
             <dt>Vishnu Kiran</dt>
             <dd>The lead </dd>
 
@@ -35,103 +40,116 @@
 
             <dt>Shiva</dt>
             <dd>The developer </dd>
-          </dl>
-          <hr>
-          <hr>
-            <div id="div-button-paragraph-about-page">
-                <p id="text-above-page" class="text-above-page">This page</p>
-                <button id="button-fire" class="button-fire">fire</button>
-            </div>
-            <hr>
-            <section>
-                 <!--common used form tags
+        </dl>
+        <hr>
+        <hr>
+        <div id="div-button-paragraph-about-page">
+            <p id="text-above-page" class="text-above-page">This page</p>
+            <button id="button-fire" class="button-fire">fire</button>
+        </div>
+        <hr>
+        <section>
+            <!--common used form tags
                     form,input,textarea,label,<select> & <option>
                     <input>	- Defines an input control.optgroup,fieldset,legend,button,output
                     -->
-                <form action="shiva.html" method="push" id="employee-form">
-                    <fieldset id="fieldset-formation">
-                        <legend>Employee Information</legend> <!--legend tag is used for diplaying information the top of the form-->
-                          
-                        <div class="form-fieldset">
-                            <label for="firstname">Enter your firstname: <input placeholder="First Name" type="text" id="firstname" name="firstname"></label>  <!--placeholder tag is used for displaying data in the Container box-->
-                        </div>      
-                        <div class="form-fieldset">
-                            <label for="lastname">Enter your lastname: <input type="text" name="lastname" id="lastname"></label>
-                        </div>
-                        <div class="form-fieldset"></div>
-                            <label for="password">Enter your password: <input type="password"  id="password"name="password"></label>
-                         </div >
-                         <div class="form-fieldset">
-                            <label for="gender">Gender: </label>
+            <form action="shiva.html" method="push" id="employee-form">
+                <fieldset id="fieldset-formation">
+                    <legend>Employee Information</legend>
+                    <!--legend tag is used for diplaying information the top of the form-->
 
-                            <label for="male">Male</label>
-                            <input type="radio" name="gender" id="gender" value="male">
+                    <div class="form-fieldset">
+                        <label for="firstname">Enter your firstname: <input placeholder="First Name" type="text"
+                                id="firstname" name="firstname"></label>
+                        <!--placeholder tag is used for displaying data in the Container box-->
+                    </div>
+                    <div class="form-fieldset">
+                        <label for="lastname">Enter your lastname: <input type="text" name="lastname"
+                                id="lastname"></label>
+                    </div>
+                    <div class="form-fieldset"></div>
+                    <label for="password">Enter your password: <input type="password" id="password"
+                            name="password"></label>
+                    </div>
+                    <div class="form-fieldset">
+                        <label for="gender">Gender: </label>
 
-                            <label for="female">Female</label>
-                            <input type="radio" name="gender" id="gender" value="female">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="gender" value="male">
 
-                            <label for="gender">Others</label>
-                            <input type="radio" name="gender"id="gender" value="Others">
-                        </div>
-                        <div class="form-fieldset">
-                            <label for="employee-id">Employee Id: <input type="text"  id="employee-id" name="employee-id"></label>                 
-                        </div>
-                        <div class="form-fieldset">
-                            <label for="phone-number">Phone Number: <input type="text" id="phone-number" name="phone-number"></label>
-                        </div>
-                        <div class="form-fieldset">
-                            <label for="designation">Designation: <input type="text" id="designation" name="designation"></label>
-                        </div>
-                        <div class="form-fieldset">
-                            <lebel for="age">Enter your age: <input type="number" id="age" name="age"></lebel>
-                        </div>
-                        <div class="form-fieldset">
-                            <label for="birthday">Birthday date: <input type="date"  id="birthday" name="birthday"></label>
-                        </div>
-                        <div class="form-fieldset">
-                            <label for="marriage-status">Marriage Status: </label>
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="gender" value="female">
 
-                                <ul>
-                                    <li><label for="unmarried">Unmarried</lebel>
+                        <label for="gender">Others</label>
+                        <input type="radio" name="gender" id="gender" value="Others">
+                    </div>
+                    <div class="form-fieldset">
+                        <label for="employee-id">Employee Id: <input type="text" id="employee-id"
+                                name="employee-id"></label>
+                    </div>
+                    <div class="form-fieldset">
+                        <label for="phone-number">Phone Number: <input type="text" id="phone-number"
+                                name="phone-number"></label>
+                    </div>
+                    <div class="form-fieldset">
+                        <label for="designation">Designation: <input type="text" id="designation"
+                                name="designation"></label>
+                    </div>
+                    <div class="form-fieldset">
+                        <lebel for="age">Enter your age: <input type="number" id="age" name="age"></lebel>
+                    </div>
+                    <div class="form-fieldset">
+                        <label for="birthday">Birthday date: <input type="date" id="birthday" name="birthday"></label>
+                    </div>
+                    <div class="form-fieldset">
+                        <label for="marriage-status">Marriage Status: </label>
+
+                        <ul>
+                            <li><label for="unmarried">Unmarried</lebel>
                                     <input type="radio" name="marriage-status" id="unmarried" value="unmarried"></li>
 
-                                    <li><label for="married">Married</lebel>
+                            <li><label for="married">Married</lebel>
                                     <input type="radio" name="marriage-status" id="married" value="married"></li>
-                                </ul>    
-                        </div>
-                        <div class="form-fieldset">        
-                            <label for="languages">Select the languages you read:</label>
-                                <ol>
-                                    <li><label for="telugu">Telugu</label>
-                                    <input type="checkbox" name="languages" id="telugu" value="telugu"></li>
-                                
-                                    <li><label for="hindi">Hindi</label>
-                                    <input type="checkbox" name="languages"  id="hindi" value="hindi"></li>
-                                
-                                    <li><label for="english">English</label>
-                                    <input type="checkbox" name="languages" id="english" value="english"></li>
-                                </ol>
-                        </div>
-                            <input type="submit"  class="submitclass" value="submit">
-                    </fieldset>
-                </form>
-            </section>
-            <hr>
-        </main>
-        <footer>
-            <diV>
-                <ul class ="class-unordered">
-                   <li><a  href="#fieldset-formation">Form area</a></li> <!--here we have added id of the a part where we can directly to jump to the area where we need look ofter-->
-                   <li><a  href="#div-navi" >Navigation area</a></li>
-                   <li><a  href="#div-button-paragraph-about-page" >Button area about fire</a></li>
-                </ul>
-                </diV>
-                <div id="page-top-button"> 
-                    <p>
-                    Go to the<a href="#">&cap;top </a>page.
-                    </p>
-                </div>
-        </footer>
-        <script src="form.js"></script>
-    </body>
+                        </ul>
+                    </div>
+                    <div class="form-fieldset">
+                        <label for="languages">Select the languages you read:</label>
+                        <ol>
+                            <li><label for="telugu">Telugu</label>
+                                <input type="checkbox" name="languages" id="telugu" value="telugu">
+                            </li>
+
+                            <li><label for="hindi">Hindi</label>
+                                <input type="checkbox" name="languages" id="hindi" value="hindi">
+                            </li>
+
+                            <li><label for="english">English</label>
+                                <input type="checkbox" name="languages" id="english" value="english">
+                            </li>
+                        </ol>
+                    </div>
+                    <input type="submit" class="submitclass" value="submit">
+                </fieldset>
+            </form>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <diV>
+            <ul class="class-unordered">
+                <li><a href="#fieldset-formation">Form area</a></li>
+                <!--here we have added id of the a part where we can directly to jump to the area where we need look ofter-->
+                <li><a href="#div-navi">Navigation area</a></li>
+                <li><a href="#div-button-paragraph-about-page">Button area about fire</a></li>
+            </ul>
+        </diV>
+        <div id="page-top-button">
+            <p>
+                Go to the<a href="#">&cap;top </a>page.
+            </p>
+        </div>
+    </footer>
+    <script src="components/form.js"></script>
+</body>
+
 </html>
