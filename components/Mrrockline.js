@@ -1,6 +1,10 @@
 const button_fire = document.getElementById("button_fire");
 const textabove_button = document.getElementById("textabove_button")
 
+/** 
+ * TODO: Add comments to explain the code, 
+ * ? what is the purpose of this code
+ */ 
 button_fire.addEventListener("click", function () {
 button_fire.classList.toggle("clicked");
 textabove_button.textContent = "belong to Mr Rockline"
@@ -8,6 +12,10 @@ textabovebutton.style.color = '#FFFFFF';
 textabove_button.style.backgroundColor = 'blue';
 });
 
+/** 
+ * TODO: Add comments to explain the code
+ * ? what is the purpose of this code
+ */
 textabove_button.addEventListener("click" , function(){
 textabove_button.classList.toggle("clicked");
 textabove_button.textContent = "Be carefull it's Me "; 
