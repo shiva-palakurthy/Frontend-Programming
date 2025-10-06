@@ -148,6 +148,57 @@
                 Go to the<a href="#">&cap;top </a>page.
             </p>
         </div>
+        <div>
+            <table> <!--this tag is used to create the table -->
+                <caption>Movie Timings</caption>
+                <thead><!--it is the body of the header of the table-->
+                    <tr><!--this tag is used to create the table rows-->
+                        <th>SL.NO</th>
+                        <th>Show timing</th><!--this tag is used to create table head information-->
+                        <th>Tickets saled per hour</th>
+                   </tr>
+                </thead>
+                <tbody><!--it is the body of the table-->
+                    <tr>
+                        <th>01</th><!--it is used to create the header in rom-->
+                        <td><!--it used to enter  the data in the cell-->
+                            <time timedate="9:45">9:45am</time>-<time timedate="12:45">12:45pm</time><!--this is used for timestamp-->
+                        </td>
+                        <td>Morning show</td>
+                    </tr>
+                    <tr>
+                        <th>02</th>
+                        <td>
+                          <time timedate="13:00">1:00pm</time>-<time timedate="16:00">03:00pm</time>
+                        </td>
+                        <td>Matinee show</td>
+                    </tr>
+                    <tr>
+                        <th>03</th>
+                        <td ><!--rowspan is used to create to multiple row for single row-->
+                            <time timedate="17:45">5:45pm</time>-<time timedate="20:45">8:45pm</time>
+                        </td>
+                        <td>First show</td>
+                    </tr>
+                    <tr>
+                        <th>02</th>
+                        <td>
+                          <time timedate="21:00">9:00pm</time>-<time timedate="24:00">12:00am</time>
+                        </td>
+                        <td>Second show</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <!--rowspan is used to create to multiple rows for single row-->
+                    <!--colspan is used to create to multiple column for single columns-->
+                    <td colspan="2" rowspan="2"> In some area the some timing will be different from 30 to 45mins.</td>
+                    <td >Warangal morning show is at 9am</td>
+                    <tr>
+                        <td>Hyderabad morning show is at 9:25am</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
     </footer>
     <script src="components/form.js"></script>
 </body>

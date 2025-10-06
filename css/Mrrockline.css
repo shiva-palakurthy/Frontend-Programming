@@ -68,7 +68,31 @@ ul{
 display: inline-flex;
 font-style: oblique;
 }
-
+/* this for  styling the table  */
+caption,table,td,tr,th{
+    border: 3px solid red; 
+    color: rgb(24, 24, 26);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:19px;
+    padding: 15px;
+    border-collapse:collapse;
+   /* background-color: rgb(85, 20, 189); */
+}
+caption{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(230, 202, 49);
+    background-color: black;
+}
+thead{
+    background-color: rgb(36, 184, 127);
+}
+tbody{
+    background-color: rgb(56, 182, 18);
+}
+tfoot{
+    background-color: rgb(252, 6, 157);
+}
 
 
 
