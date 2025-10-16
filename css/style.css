@@ -1,101 +1,43 @@
-img.business {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-  float: left;
-  clear: left;
+.harivillu-header-log{
+height:67.09px;
+width:149.97px;
 }
-.ul-ol-lists {
-  float: left;
-  clear: left;
-}
+.Header-harivillu-container{
+display: flex;
 
-img.Lighthouse {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-  float: right;
-  clear: left;
-}
 
-p.firstpara {
-  font-size: xx-large;
 }
-
-a {
-  /*can also use display:block*/
-  float: left;
-  clear: left;
+div{
+display: flex;
 }
-
-img.img-logo {
-  width: 260px;
-  height: 85px;
+ul{
+font-family: 'Times New Roman';
+display: flex;
+font-size:20px;
+list-style-type:none;
+padding: 0px 328px ;
+cursor: pointer;
+font-family: 'Times New Roman';
 }
-.nav-ul {
-  display: flex;
-  line-height: inherit;
+li{
+padding:10px 20px;
 }
-/* .nav-il {
-        display: inline;
-      } */
-.main-header {
-  width: 100%;
-  height: 112px;
+li a.hv-home-bar-active{
+color: orangered;
 }
-div.main-header-div {
-  display: flex;
-  line-height: inherit;
-  padding: 10px;
-  margin: 10px;
+.harivillu-header-my-button{
+border: none;
+width:134.14px;
+height:43.19px;
+font-size:17px;
+text-align: center;
+background-color: orange;
+cursor:pointer;
+position: absolute;
+top: 35px; 
+right: 90px;
 }
-
-/* 
-style related to form fields
-*/
-
-.employeeForm {
-  float: left;
-  clear: left;
-  margin-bottom: 25px;
-}
-
-fieldset {
-  width: 400px;
-  padding: 20px;
-  /* border: 1px solid #333; */
-}
-
-legend {
-  font-weight: bold;
-}
-
-.form-group {
-  margin-bottom: 15px;
-  display: flex; /* Use flexbox for alignment */
-  align-items: center; /* Vertically align items */
-}
-
-.form-group label {
-  display: block;
-  /* margin-bottom: 5px; */
-}
-/*
-either we can write .<class-name> <field type> ex: .form-group label
-or we can write input[type="<input-type>"] ex: input[type="text"]
-*/
-input[type="text"] {
-  box-sizing: border-box; /*this ensures padding does not increase the total width*/
-}
-
-input[type="submit"] {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: rgb(151, 28, 28);
-  border: none;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #0056b3;
+.main-class-image-harivillu{
+height:740px;
+width:1351px;
 }
