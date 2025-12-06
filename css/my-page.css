@@ -1,0 +1,18 @@
+header{
+background-color: antiquewhite;
+margin:0px;
+}
+main{
+padding:180px;
+}
+footer{
+background-color: rgb(195, 255, 127);
+margin:0px;
+}
+body{
+margin: 0;
+padding: 0;
+}
+.page-head-box{
+display: block;
+}
